@@ -1,7 +1,9 @@
-import { LoginNavbar } from "./LoginNavbar"
+import { LoginNavbar } from "./LoginNavbar";
 
 export const CartCompo = () => {
-    return (
-        <div><LoginNavbar /></div>
-    )
-}
+  return (
+    <div>
+      <LoginNavbar />
+    </div>
+  );
+};

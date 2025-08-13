@@ -9,5 +9,4 @@ router.post("/login", loginLogic);
 router.post("/cart", AddToCart);
 router.get("/:id", UserDetail);
 
-
 export default router;

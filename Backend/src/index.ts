@@ -1,8 +1,8 @@
 import bodyParser from "body-parser";
 import express from "express";
-import mainRouter from "./routes/mainRouter"
-import cors from "cors"
-import dotenv from 'dotenv';
+import mainRouter from "./routes/mainRouter";
+import cors from "cors";
+import dotenv from "dotenv";
 
 dotenv.config();
 const port = 3000;
@@ -16,5 +16,5 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/v1", mainRouter);
 
 app.listen(port, () => {
-    console.log(`Your app is running at port ${port}`);
-})
+  console.log(`Your app is running at port ${port}`);
+});

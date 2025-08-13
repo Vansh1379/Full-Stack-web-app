@@ -1,5 +1,10 @@
 import { Router } from "express";
-import { AddToCart, DeleteCartItem, GetCartId, GetCartItem } from "../controllers/cartApi";
+import {
+  AddToCart,
+  DeleteCartItem,
+  GetCartId,
+  GetCartItem,
+} from "../controllers/cartApi";
 
 const router = Router();
 

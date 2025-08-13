@@ -1,9 +1,9 @@
-import { Product } from './ProductDisplay'
+import { Product } from "./ProductDisplay";
 
 export const ProductPage = () => {
-    return (
-        <>
-            <Product />
-        </>
-    )
-}
+  return (
+    <>
+      <Product />
+    </>
+  );
+};

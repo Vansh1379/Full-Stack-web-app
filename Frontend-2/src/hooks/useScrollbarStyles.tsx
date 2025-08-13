@@ -1,7 +1,7 @@
 // src/hooks/useScrollbarStyles.ts
 
-import { useEffect } from 'react';
-import { scrollbarStyles } from '../styles/scrollbarStyles';
+import { useEffect } from "react";
+import { scrollbarStyles } from "../styles/scrollbarStyles";
 
 export const useScrollbarStyles = () => {
   useEffect(() => {

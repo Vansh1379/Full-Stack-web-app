@@ -1,5 +1,10 @@
 import { Router } from "express";
-import { deleteProduct, GetAllProduct, ProductAuth, ProductById } from "../controllers/productAuth";
+import {
+  deleteProduct,
+  GetAllProduct,
+  ProductAuth,
+  ProductById,
+} from "../controllers/productAuth";
 
 const router = Router();
 

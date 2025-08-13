@@ -1,16 +1,14 @@
-import { CartCompo } from "../components/Cart"
-import { CartDisplay } from "../components/cart/CartDisplay"
-import { useScrollbarStyles } from "../hooks/useScrollbarStyles"
-
+import { CartCompo } from "../components/Cart";
+import { CartDisplay } from "../components/cart/CartDisplay";
+import { useScrollbarStyles } from "../hooks/useScrollbarStyles";
 
 export const Cart = () => {
+  useScrollbarStyles();
 
-    useScrollbarStyles();
-
-    return (
-        <div className="overflow-hidden">
-            <CartCompo />
-            <CartDisplay />
-        </div>
-    )
-}
+  return (
+    <div className="overflow-hidden">
+      <CartCompo />
+      <CartDisplay />
+    </div>
+  );
+};
